@@ -45,15 +45,15 @@ class Router {
 					$controller = new $path($this->params);
 					$controller->$action();
 				}else{
-					echo "Action nicht gefunden: <b>".$action."</b>";
+					echo "Action not found: <b>".$action."</b>";
 				}
 
 			}else{
-				echo "Controller nicht gefunden: <b>".$path."</b>";
+				echo "Controller not found: <b>".$path."</b>";
 			}
 
 		}else{
-			echo "Route nicht gefunden";
+			echo "Route not found";
 		}
 	}
 }

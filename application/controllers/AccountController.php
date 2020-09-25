@@ -7,13 +7,13 @@ use application\core\Controller;
 class AccountController extends Controller{
 	
 	public function loginAction(){
-		echo "Login seite";
+		echo "Login";
 
 	}
 
 
 	public function registerAction(){
-		echo "registeration seite";
+		echo "Registration";
 		var_dump($this->route);
 	}
 }

@@ -7,7 +7,7 @@ use application\core\Controller;
 class NewsController extends Controller{
 	
 	public function showAction(){
-		echo "News seite";
+		echo "News";
 
 	}
 }
